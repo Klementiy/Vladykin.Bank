@@ -13,6 +13,8 @@
 		CECBB41F256B92FA004CF174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECBB41D256B92FA004CF174 /* Main.storyboard */; };
 		CECBB421256B92FC004CF174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECBB420256B92FC004CF174 /* Assets.xcassets */; };
 		CECBB424256B92FC004CF174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECBB422256B92FC004CF174 /* LaunchScreen.storyboard */; };
+		CECBB42D256C2A74004CF174 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBB42C256C2A73004CF174 /* TableViewController.swift */; };
+		CECBB430256C2EE2004CF174 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBB42F256C2EE2004CF174 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CECBB420256B92FC004CF174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECBB423256B92FC004CF174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CECBB425256B92FC004CF174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECBB42C256C2A73004CF174 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CECBB42F256C2EE2004CF174 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CECBB419256B92FA004CF174 /* SceneDelegate.swift */,
 				CECBB41B256B92FA004CF174 /* ViewController.swift */,
 				CECBB41D256B92FA004CF174 /* Main.storyboard */,
+				CECBB42F256C2EE2004CF174 /* TableViewCell.swift */,
+				CECBB42C256C2A73004CF174 /* TableViewController.swift */,
 				CECBB420256B92FC004CF174 /* Assets.xcassets */,
 				CECBB422256B92FC004CF174 /* LaunchScreen.storyboard */,
 				CECBB425256B92FC004CF174 /* Info.plist */,
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECBB430256C2EE2004CF174 /* TableViewCell.swift in Sources */,
 				CECBB41C256B92FA004CF174 /* ViewController.swift in Sources */,
 				CECBB418256B92FA004CF174 /* AppDelegate.swift in Sources */,
 				CECBB41A256B92FA004CF174 /* SceneDelegate.swift in Sources */,
+				CECBB42D256C2A74004CF174 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
